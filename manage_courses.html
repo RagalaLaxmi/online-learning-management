@@ -1,0 +1,21 @@
+<div class="manage-courses">
+    <h2>Manage Courses</h2>
+    <button onclick="showCreateCourseForm()">Create New Course</button>
+
+    <div id="create-course-form" style="display:none;">
+        <h3>Create Course</h3>
+        <form id="create-course">
+            <label for="course-name">Course Name:</label>
+            <input type="text" id="course-name" name="course_name" required>
+
+            <label for="course-description">Course Description:</label>
+            <textarea id="course-description" name="course_description" required></textarea>
+
+            <button type="submit">Create Course</button>
+        </form>
+    </div>
+
+    <div id="courses-list">
+        <!-- Dynamic Course List will appear here -->
+    </div>
+</div>

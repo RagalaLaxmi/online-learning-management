@@ -1,0 +1,92 @@
+/* Basic styling for the sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Main content area */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+/* Course creation form styling */
+#create-course-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#create-course-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#create-course-form input, #create-course-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#create-course-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#create-course-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for existing courses */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul li h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+ul li p {
+    margin: 5px 0;
+}

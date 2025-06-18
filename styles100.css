@@ -1,0 +1,129 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the form */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label and Input styles */
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Hover effect for inputs */
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover,
+select:hover,
+input[type="file"]:hover {
+    border-color: #7f7f7f;
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Error message */
+p[style='color:red;'] {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Link styles */
+p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    select,
+    input[type="file"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button[type="submit"] {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

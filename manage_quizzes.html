@@ -1,0 +1,26 @@
+<div class="manage-quizzes">
+    <h2>Manage Quizzes</h2>
+    <button onclick="showCreateQuizForm()">Create New Quiz</button>
+
+    <div id="create-quiz-form" style="display:none;">
+        <h3>Create Quiz</h3>
+        <form id="create-quiz">
+            <label for="quiz-title">Title:</label>
+            <input type="text" id="quiz-title" name="title" required>
+
+            <label for="quiz-description">Description:</label>
+            <textarea id="quiz-description" name="description" required></textarea>
+
+            <label for="quiz-course">Course:</label>
+            <select id="quiz-course" name="course_id">
+                <!-- Dynamic Courses -->
+            </select>
+
+            <button type="submit">Create Quiz</button>
+        </form>
+    </div>
+
+    <div id="quizzes-list">
+        <!-- Dynamic Quiz List will appear here -->
+    </div>
+</div>

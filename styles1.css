@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee); /* Soft pink to soft blue gradient */
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(255, 255, 255, 0.9); /* Light white background with slight transparency */
+    padding: 40px 20px;
+    color: #333;
+    text-align: center;
+    border-bottom: 5px solid #ff6a00;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 30px;
+}
+
+header .logo {
+    width: 50px; /* Adjust the logo size */
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+    color: #ff6a00;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Main Content */
+.main-content {
+    padding: 30px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* Intro Text Styling */
+.intro-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 400;
+}
+
+/* Image Container Styling */
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.image-item {
+    width: 28%;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.image-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Login Button Styling */
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+.login-btn:focus {
+    outline: none;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-item {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .login-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .intro-text {
+        font-size: 18px;
+    }
+}

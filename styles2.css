@@ -1,0 +1,91 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Light gray background for a softer look */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px; /* Increased padding for a more spacious feel */
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #343a40; /* Darker gray for better contrast */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057; /* Slightly darker gray for labels */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px;
+    transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+/* Input Focus Styles */
+input:focus,
+select:focus {
+    border-color: #80bdff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size for buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Added transform for hover effect */
+}
+
+/* Button Hover Styles */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Error Message Styles */
+.error {
+    color: #dc3545; /* Bootstrap danger color */
+    text-align: center;
+    margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

@@ -1,0 +1,14 @@
+file:///C:/xampp/htdocs/LOGIN/index.html
+http://localhost/phpmyadmin/
+http://localhost/new 3 login/lohgin.php
+•  For accessing your login page: You should use the URL http://localhost/extra/extralogin.php to access your login functionality.
+•  For working with the database: Use http://localhost/phpmyadmin/ to manage your database (user_auth or any other databases).
+•  For your index.html page: If you're testing an HTML page, you should use http://localhost/LOGIN/index.html instead of the file:// path.
+http://localhost/extra/extralogin.php
+    http://localhost/new 3 login/lp
+
+                      http://localhost/new 3 login/lp index1.html
+
+
+
+http://localhost/new 3 login/index1.html
